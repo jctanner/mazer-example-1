@@ -1,0 +1,4 @@
+---
+# tasks file for newrole_molecue
+- debug: msg="molecule role"
+- fail: msg="testing failure"

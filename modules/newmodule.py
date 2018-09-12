@@ -13,6 +13,10 @@ import sys
 from ansible.module_utils.newutil import get_stuff
 
 
+def do_foo():
+    return True
+
+
 def main():
 
     res = {
